@@ -1,8 +1,21 @@
 import streamlit as st
 import google.generativeai as genai
 
-# Configure the API key
-genai.configure(api_key="AIzaSyCOno6CSHAuRFVNDx80C94U7wVaQ9CuY9A")
+
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Now you can access the variables
+api_key = os.getenv('API_KEY')
+# Example usage
+import streamlit as st
+import google.generativeai as genai
+
+# Use the loaded API key
+genai.configure(api_key=api_key)
 
 # Create the model
 model = genai.GenerativeModel('gemini-pro')

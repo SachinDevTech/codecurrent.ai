@@ -50,7 +50,9 @@ cd ai-chat-companion
 ```bash
 pip install streamlit google-generativeai
 ```
-
+3. **To run this**
+```bash
+python -m streamlit run app.py```
 3. **Set up Google AI API Key**  
    - Obtain an API key from Google AI Studio.  
    - Replace the placeholder API key in the script.  
