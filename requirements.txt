@@ -1,1 +1,3 @@
-google-generativeai
+streamlit==1.21.0
+python-dotenv==1.0.0
+google-generativeai==0.1.0  # If using the Google Generative AI SDK
