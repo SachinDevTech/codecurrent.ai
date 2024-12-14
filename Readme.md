@@ -1,5 +1,3 @@
-Here’s a concise and easy-to-read markdown version of your AI Chat Companion project:  
-
 ```markdown
 # 🤖 AI Chat Companion: Google Gemini Pro Powered Chatbot
 
@@ -42,17 +40,15 @@ pip install streamlit google-generativeai
 ## 🔧 Installation
 1. **Clone the repository**  
 ```bash
-git clone https://github.com/yourusername/ai-chat-companion.git
-cd ai-chat-companion
+git clone https://github.com/SachinDevTech/codecurrent.ai.git
+cd codecurrent.ai
 ```
 
 2. **Install required packages**  
 ```bash
 pip install streamlit google-generativeai
 ```
-3. **To run this**
-```bash
-python -m streamlit run app.py```
+
 3. **Set up Google AI API Key**  
    - Obtain an API key from Google AI Studio.  
    - Replace the placeholder API key in the script.  
@@ -113,10 +109,7 @@ streamlit run app.py
 4. **Push to the branch**  
 5. **Create a pull request**  
 
----
-
-## 📄 License
-[Specify your license - e.g., MIT License]  
+--- 
 
 ---
 
@@ -132,4 +125,5 @@ streamlit run app.py
 - **LinkedIn**: [Sachin Kumar](https://linkedin.com/in/sachindevtech)  
 ```
 
-This version is concise, easy to follow, and covers all the essential details. Let me know if you'd like any changes or additions! 😊
+This README provides a clear and complete guide on how to use, set up, and contribute to the AI Chat Companion project. Let me know if you'd like any changes or additions! 😊
+
